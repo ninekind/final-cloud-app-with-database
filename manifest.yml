@@ -1,11 +1,11 @@
   applications:
-  - name: django-00000001
+  - name: final-cloud-app-with-database
     routes:
-      - route: host.domain
+      - route: https://django-00000001.us-south.cf.appdomain.cloud/
     memory: 128M
     buildpack: python_buildpack
   - name: onlinecourse-nginx
     routes:
       - route: host.domain/static
     memory: 128M
-    buildpack: staticfile_buildpack
+    buildpack: staticfile_buildpackibmcloud 
