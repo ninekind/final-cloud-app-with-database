@@ -1,5 +1,5 @@
   applications:
-  - name: onlinecourse
+  - name: django-00000001
     routes:
       - route: host.domain
     memory: 128M
