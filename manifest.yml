@@ -1,7 +1,7 @@
   applications:
   - name: final-cloud-app-with-database
     routes:
-      - route: https://django-00000001.us-south.cf.appdomain.cloud/
+      - route: host.domain
     memory: 128M
     buildpack: python_buildpack
   - name: onlinecourse-nginx
