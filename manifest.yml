@@ -1,11 +1,11 @@
   applications:
-  - name: database-a2e
+  - name: onlinecourse-nginx
     routes:
-      - route: database-a2e.us-south.cf.appdomain.cloud/
+      - route: onlinecourse-nginx.mybluemix.net/
     memory: 128M
     buildpack: python_buildpack
   - name: onlinecourse-nginx
     routes:
-      - route: database-a2e.us-south.cf.appdomain.cloud/static
+      - route: onlinecourse-nginx.mybluemix.net/static
     memory: 128M
     buildpack: staticfile_buildpack
