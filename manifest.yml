@@ -4,7 +4,7 @@
       - route: us-south.cf.appdomain.cloud
     memory: 128M
     buildpack: python_buildpack
-  - name: django-database32a
+  - name: django-database32a-nginx
     routes:
       - route: us-south.cf.appdomain.cloud/static
     memory: 128M
