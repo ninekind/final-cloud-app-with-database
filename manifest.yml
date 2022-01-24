@@ -1,11 +1,9 @@
   applications:
   - name: final-cloud-app-with-database
-    routes:
-      - route: host.domain
+    random-route: true
     memory: 128M
     buildpack: python_buildpack
   - name: onlinecourse-nginx
-    routes:
-      - route: host.domain/static
+    random-route: true
     memory: 128M
-    buildpack: staticfile_buildpackibmcloud 
+    buildpack: staticfile_buildpack
