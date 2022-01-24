@@ -1,9 +1,11 @@
   applications:
-  - name: final-cloud-app-with-database
-    random-route: true
+  - name: onlinecourse
+    routes:
+      - route: database-a2e.us-south.cf.appdomain.cloud/
     memory: 128M
     buildpack: python_buildpack
   - name: onlinecourse-nginx
-    random-route: true
+    routes:
+      - route: database-a2e.us-south.cf.appdomain.cloud/static
     memory: 128M
     buildpack: staticfile_buildpack
