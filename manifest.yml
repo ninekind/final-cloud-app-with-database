@@ -1,5 +1,5 @@
   applications:
-  - name: onlinecourse
+  - name: database-a2e
     routes:
       - route: database-a2e.us-south.cf.appdomain.cloud/
     memory: 128M
