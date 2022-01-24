@@ -1,11 +1,11 @@
-  applications:
-  - name: django-database32a
+applications:
+  - name: onlinecourse
     routes:
-      - route: us-south.cf.appdomain.cloud
+      - route: phillybruhh.us-south.cf.appdomain.cloud
     memory: 128M
     buildpack: python_buildpack
-  - name: django-database32a-nginx
+  - name: onlinecourse-nginx
     routes:
-      - route: us-south.cf.appdomain.cloud/static
+      - route: phillybruhh.us-south.cf.appdomain.cloud/static
     memory: 128M
     buildpack: staticfile_buildpack
